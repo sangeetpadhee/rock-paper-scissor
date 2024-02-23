@@ -1,0 +1,278 @@
+.container{
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.box{
+background-color: #85FFBD;
+background-image: linear-gradient(0deg, #85FFBD 0%, #ffeb7d 100%);    
+height: 590px;
+width: 500px;
+border-radius: 10px;
+}
+.upper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#headingpic{
+    width: 200px;
+}
+.upeerlett{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 280px;
+    height: 10px;
+}
+
+.comp{
+    height: 30px;
+    margin-top: 3px;
+}
+.you{
+    height: 30px;
+}
+
+.hand{
+    margin-top: 30px;
+    display: flex;
+    height: 140px;
+}
+
+.vs{
+    margin-top: 20px;
+    margin-left: 42px;
+}
+
+/* MIDDLE WIN LOOSE OR DRAW */
+
+.middle{
+    display: flex;
+    width: 250px;
+}
+.win{
+    display: none;
+    margin-top: -20px;
+    height: 170px;
+    width: 170px;
+    margin-left: -5px;
+}
+.loose{
+    display: none;
+    height: 172px;
+    width: 165px;
+}
+.draw{
+    display: none;
+    margin-left: -2px;
+    margin-top: 30px;
+    height: 80px;
+    width: 165px;
+}
+
+
+
+/*LEFT FINGER SHOW*/
+
+
+.middleleft{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+.leftrock{
+    display: none;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: -12px;
+}
+.leftpaper{
+    display: none;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: -5px;
+}
+.leftscissor{
+    display: none;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: -18px;
+}
+
+/*RIGHT FINGER SHOW*/
+
+
+.middleright{
+    display: flex;
+    flex-direction: column;
+    width: 160px ;
+}
+.rightrock{
+    display: none;
+    margin-top: 30px;
+    width: 180px;
+    margin-left: -11px;
+}
+.rightpaper{
+    display: none;
+    margin-top: 25px;
+    width: 180px;
+    margin-left: -14px;
+}
+.rightscissor{
+    display: none;
+    margin-top: 23px;
+    width: 185px;
+    margin-left: -15px;
+}
+
+
+/* BELOW PORTION   */
+
+.below{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.belowup{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+}
+.rock{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    height: 120px;
+}
+.rock:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+}
+.paper{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-left: -13px;
+    height: 120px;
+}
+.paper:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+}
+.scissor{
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-left: -9px;
+    height: 120px;
+    margin-top: 5px;
+}
+.scissor:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+}
+.belowbe{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/* FOR MOBILE    ====   1 */
+
+@media screen and (max-width: 600px) {
+ 
+.container{
+    margin-left: 27px;
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}    
+.box{
+    height: 735px;
+    width: 505px;
+}  
+#headingpic{
+    margin-left: 180px;
+    width: 35%;
+ }
+ 
+
+.middle{
+    margin-left: 45px;
+}
+.below{
+    margin-left: 6px;
+}
+.leftrock{
+    margin-left: -9px;
+    width: 170px;
+}
+.leftpaper{
+    margin-left: -4px;
+    width: 170px;
+}
+.leftscissor{
+    margin-left: -18px;
+    width: 180px;
+}
+.rightrock{
+    width: 170px;
+    margin-left: 0px;
+}
+.rightpaper{
+    width: 170px;
+    margin-left: 0px;
+}
+.rightscissor{
+    width: 180px;
+    margin-left: 0px;
+}
+
+.middle{
+    margin-left: 15px;
+}
+
+}
+
+/* FOR MOBILE   ==== 2 */
+
+@media screen and (max-width: 650px) and (min-width: 600px) {
+
+.container{
+    margin-top: 0px;
+    width: 100%;
+    height: 100%;
+}    
+.box{
+    height: 623px;
+    width: 100%;
+}  
+#headingpic{
+    margin-left: 200px;
+    width: 35%;
+ }  
+.middle{
+    margin-left: 63px;
+}
+.below{
+    margin-left: 65px;
+}
+.comp{
+    height: 40px;
+}
+.you{
+    height: 40px;
+}
+
+}
