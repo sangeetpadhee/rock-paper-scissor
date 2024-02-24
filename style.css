@@ -193,9 +193,15 @@ border-radius: 10px;
 @media screen and (max-width: 600px) {
 
 body{
-    background-color: #85FFBD;
-    background-image: linear-gradient(0deg, #85FFBD 0%, #ffeb7d 100%);    
-     
+ display: flex;  
+ margin-top: 0px;  
+}
+.container{
+    margin-top: 7px;
+}
+.box{
+    height: 900px;
+    width: 500px;
 }
    
 #headingpic{
@@ -241,6 +247,18 @@ body{
 
 }
 
+@media screen and (max-width: 600px) and (min-width: 508px) {
+    .box{
+        height: 900px;
+        width: 600px;
+    }
+
+    .below{
+        margin-left: 30px;
+    }
+
+}
+
 /* FOR MOBILE   ==== 2 */
 
 @media screen and (max-width: 650px) and (min-width: 600px) {
@@ -265,7 +283,7 @@ body{
     margin-left: 63px;
 }
 .below{
-    margin-left: 65px;
+    margin-left: 45px;
 }
 .comp{
     height: 40px;
