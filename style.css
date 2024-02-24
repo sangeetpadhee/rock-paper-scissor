@@ -214,7 +214,7 @@ body{
     gap: 380px;
  }
 .you{
-    margin-left: -130px;
+    margin-left: -100px;
 }
 .comp{
     margin-left: -160px;
@@ -258,15 +258,15 @@ body{
 }
 .rightrock{
     width: 150px;
-    margin-left: -140px;
+    margin-left: -120px;
 }
 .rightpaper{
     width: 150px;
-    margin-left: -140px;
+    margin-left: -120px;
 }
 .rightscissor{
     width: 160px;
-    margin-left: -140px;
+    margin-left: -120px;
 }
 
 .middle{
@@ -274,14 +274,15 @@ body{
 }
 .belowup{
     justify-content: center;
-    gap: 50px;
-   margin-left: -130px;
+    gap: 30px;
+   margin-left: -125px;
 }
 .belowbe{
     justify-content: center;
-    gap: 50px;
-   margin-left: -130px;
+    gap: 30px;
+   margin-left: -108px;
 }
+
 }
 
 @media screen and (max-width: 600px) and (min-width: 508px) {
