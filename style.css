@@ -191,17 +191,13 @@ border-radius: 10px;
 /* FOR MOBILE    ====   1 */
 
 @media screen and (max-width: 600px) {
- 
-.container{
-    margin-left: 27px;
-    margin-top: 0px;
-    width: 100%;
-    height: 100%;
-}    
-.box{
-    height: 735px;
-    width: 505px;
-}  
+
+body{
+    background-color: #85FFBD;
+    background-image: linear-gradient(0deg, #85FFBD 0%, #ffeb7d 100%);    
+     
+}
+   
 #headingpic{
     margin-left: 180px;
     width: 35%;
@@ -249,14 +245,17 @@ border-radius: 10px;
 
 @media screen and (max-width: 650px) and (min-width: 600px) {
 
+body{
+    display: flex;
+}
 .container{
     margin-top: 0px;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
 }    
 .box{
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }  
 #headingpic{
     margin-left: 200px;
