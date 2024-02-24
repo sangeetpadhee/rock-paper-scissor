@@ -200,8 +200,8 @@ body{
     margin-top: 7px;
 }
 .box{
-    height: 900px;
-    width: 500px;
+    min-height: 1100px;
+    max-width: 500px;
 }
    
 #headingpic{
@@ -249,8 +249,8 @@ body{
 
 @media screen and (max-width: 600px) and (min-width: 508px) {
     .box{
-        height: 900px;
-        width: 600px;
+        min-height: 1100px;
+        min-width: 570px;
     }
 
     .below{
